@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Main">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_ask_question"
+                    android:title="@string/nav_ask_question"/>
+                <item
+                    android:id="@+id/nav_my_question"
+                    android:title="@string/nav_my_question"/>
+                <item
+                    android:id="@+id/nav_all_question"
+                    android:title="@string/nav_all_question"/>
+            </group>
+
+        </menu>
+    </item>
+    <item
+        android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:title="@string/nav_settings"/>
+            <item
+                android:id="@+id/nav_about"
+                android:title="@string/nav_about"/>
+        </menu>
+    </item>
+
+</menu>
